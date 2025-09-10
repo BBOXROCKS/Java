@@ -10,7 +10,7 @@
 
             //continue from here and use division to find the triangles area ((b*h)/2)
             
-            int squareArea = squareSide * 4;
+            int squareArea = squareSide * squareSide;
             System.out.println("The area of the square is: " + squareArea);
             
             int triangleArea = ((triangleBase * triangleHeight)/2);
